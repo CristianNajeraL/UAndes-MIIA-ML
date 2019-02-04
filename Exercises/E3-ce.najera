@@ -1,10 +1,41 @@
 Tipos de aprendizaje en Machine Learning
 En el marco del Machine Learning encontramos cuatro (4) tipos de aprendizaje:
+
 1. Aprendizaje supervisado
   Este tipo de aprendizaje nos permite deducir la mejor función posible que nos permite
   explicar las relaciones entre las variables explicativas, para 'predecir' el comportamiento
-  de otra variable. Uno de los métodos más comunes es el de regresión.
+  de otra variable. Uno de los métodos más comunes es el de regresión. Básicamente el ser
+  humano hace de 'profesor externo', que se encarga de guiar los algoritmos para que 
+  aprendan de la manera que este considera adecuado.
+  Algoritmos comunes:
+    Regresión lineal
+    Árboles de decisión
+    Redes neuronales
+    SVM
+  
 2. Aprendizaje no supervisado
-  En este tipo de aprendizaje no hay una variable a explicar o predecir
-3.
-4.
+  En este tipo de aprendizaje no hay una variable a explicar o predecir, por lo tanto los 
+  modelos son ajustados a las observaciones con las que contemos. Es común los modelos de 
+  agrupación, que en algunas ocasiones no son probabilísticos. Bajo este 'sistema de aprendizaje'
+  el ser humano no juega el papel de profesor externo y la velocidad de entrenamiento de 
+  los modelos es menor, frente a la que requerida por los modelos de aprendizaje supervisado.
+  Algoritmos comunes:
+    K-means
+    Association rules
+  
+3. Aprendizaje semisupervisado
+  Esta técnica de aprendizaje usa datos etiquetados y no etiquetados para el entrenamiento
+  de los modelos; lo que permite, según expertos, mejorar de forma considerable la exactitud
+  de aprendizaje de los algoritmos. Esta ténica de aprendizaje se podría decir que se encuentra
+  entre el aprendizaje supervisado y el no supervisado.
+
+4. Aprendizaje por refuerzo
+  Es una ténica de aprendizaje que tiene como objetivo que el algoritmo escoja la decisión
+  que maximice su 'utilidad', dada una serie de condiciones de entorno; cada vez que el 
+  algoritmo 'toma una decisión' aprende de su propio proceso. El principal objetivo es que 
+  el algoritmo (o agente) pueda determinar, de manera automática, cuál es el comportamiento
+  ideal bajo ciertas circunstancias. 
+  Algoritmos comunes:
+    Q-Learning
+    Temporal Difference (TD)
+    Deep Adversarial Networks
