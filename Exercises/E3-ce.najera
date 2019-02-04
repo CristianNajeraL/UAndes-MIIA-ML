@@ -1,0 +1,10 @@
+Tipos de aprendizaje en Machine Learning
+En el marco del Machine Learning encontramos cuatro (4) tipos de aprendizaje:
+1. Aprendizaje supervisado
+  Este tipo de aprendizaje nos permite deducir la mejor función posible que nos permite
+  explicar las relaciones entre las variables explicativas, para 'predecir' el comportamiento
+  de otra variable. Uno de los métodos más comunes es el de regresión.
+2. Aprendizaje no supervisado
+  En este tipo de aprendizaje no hay una variable a explicar o predecir
+3.
+4.
