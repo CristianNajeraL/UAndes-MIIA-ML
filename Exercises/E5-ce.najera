@@ -1,0 +1,23 @@
+Tipos de árboles de decisión
+Árbol de clasificación
+	Como su nombre lo indica, este tipo de árbol nos permite estimar si el resultado predicho hace parte de algún tipo de categoría o clase. Dentro de las medidas de eficiencia importantes para estos árboles encontramos el accuracy score y el f1 score, que nos permiten saber cuán acertado es nuestro modelo.
+Árbol de regresión
+	Este tipo de árbol nos arroja un número real como resultado, por ejemplo, la cantidad de bicicletas alquiladas en una hora específica o el precio de una casa.
+Adicional a estos tipos de árboles encontramos los híbiridos
+	Bagging
+		Desarrolla varios árboles mientras hace un remuestreo de forma repetida, descartando árboles hasta encontrar una predicción en consenso
+	Random Forest
+		Desarrolla una serie de árboles, los cuales tienen el objetivo de ir mejorando la tasa de clasificación del modelo
+	Árboles impulsados
+		Suelen ser utilizados para manejar modelos de regresión y clasificación
+	Rotation Forest
+		Cada árbol se entra aplicando primero un análisis de componentes principales en un subconjunto aleatorio de las características de entrada
+Los árboles de decisión permiten construir tuplas de entrenamiento, lo que se conoce como aprendizaje basado en árboles de decisión. Dentro de los algoritmos específicos para árboles de decisión encontramos:
+	ID3
+	C4.5
+	CHAID
+		Realziar divisiones de múltiples niveles al calcular lso árboles de clasificación
+	MARS 
+		Maneja de mejor manera los datos numéricos
+	Árboles de Inferencia condicional
+Los diferentes árboles cuentan con la ventaja de ser fácilmente interpretables y su explicación es relativamente sencilla. Además, los datos no requieren de mucho pre procesamiento y cuentan con la gran ventaja que de variables categóricas y numéricas pueden ser utilizadas dentro del análisis. Y junto a lo anterior, son modelos robustos y que con grandes volúmenes de datos funcionan muy bien, de hecho, el requerimiento de recursos informáticos no es muy grande para la cantidad de información que podrían llegar a procesar.
