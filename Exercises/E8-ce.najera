@@ -1,0 +1,13 @@
+Ensemble learning
+Este es un mecanismo que utiliza varios algoritmos para obtener una mejor predicción, teniendo en cuenta que el error del modelo final es el ‘promedio de los errores’ de los modelos que lo conforman; lo que representa una ventaja frente a la comparación individual con cada uno de ellos. Básicamente lo que hace el algoritmo es contrastar diferentes hipótesis, de cada uno de los modelos que hacen parte del proceso, con una misma base de datos de aprendizaje; para de esta manera poder comparar y ‘ajustar’ un modelo que tenga un mejor desempeño que los demás de manera individual.
+Evaluar el desempeño de este tipo de modelos exige una capacidad computacional mayor que la requerida para evaluar modelos de manera independiente, ya que el proceso de ‘ajuste’ se hace sobre todos los modelos y sobre el conjunto a la vez; al final esto es lo que genera un mejor desempeño del mismo.
+Normalmente se utiliza con modelos de aprendizaje supervisado con la gran ventaja de que tiende a reducir problemas relacionados con over-fitting de los datos; ya que no importa si uno de los modelos que conforma el ensemble tiene over-fitting, al final será computado con los demás que hacen parte del algoritmo.
+Uno de los temas sobre los que no se ha llegado a un consenso es que no existe un mecanismo claro para determinar cuál es la cantidad de modelos que deberían hacer parte de un ensemble, sin embargo, hay que tener en cuenta que a mayor cantidad de modelos habrá un requerimiento de máquina mucho mayor; por lo cual se esperaría un mejor desempeño. Una recomendación para los modelos de clasificación es que la cantidad de modelos dentro del ensemble sea igual a la cantidad de clases a predecir.
+Tipos
+	Bayes optimal classifier
+	Bootstrap aggregating (bagging)
+	Boosting
+	Bayesian parameter averaging
+	Bayesian model combination
+	Bucket of models
+	Stacking
