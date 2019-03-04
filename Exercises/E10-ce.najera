@@ -1,0 +1,8 @@
+Análisis
+Do we need hundreds of classifiers to solve real world classification problems?
+
+El paper analiza 179 clasificadores de 17 diferentes familias sobre 121 bases de datos buscando aquel que tenga el mejor desempeño sobre los datos. Las bases de datos utilizadas para el análisis no se les realizó transformación de algún tipo, ya que se podría suponer que el impacto sobre el desempeño de todos los clasificadores sería el mismo. 
+Los investigadores aclaran que no todos los modelos pudieron ser analizados, ya que algunos presentaron errores al momento de su ejecución, por lo cual no fueron tenidos en cuenta para el cálculo del rendimiento promedio de modelo.
+En términos generales, los investigadores concluyen que lo primero que se debería hacer al momento de enfrentar un problema real es ejecutar un random forest y, además, buscar los parámetros adecuados para la base de datos en específico que se esté manejando; esta se convierte en la recomendación principal del documento.
+Sin embargo, también aclaran que en caso de que el random forest no presente un desempeño ‘deseado’, se debe correr un SVM con los kernels recomendados, para poder ver cómo sería el comportamiento con este tipo de modelos.
+En conclusión, considero importante también tener claro cómo es la estructura de los datos y las transformaciones que se le podrían hacer a los mismos para de esta forma poder tener el desempeño deseado de los modelos, sin tener que ejecutar una gran cantidad de modelos, sino los adecuados con los modelos más fuertes.
